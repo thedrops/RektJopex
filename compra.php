@@ -14,8 +14,7 @@ if ($con) {
 
   <ul class="collapsible" data-collapsible="expandable">
     <li>
-      <div class="collapsible-header "><i class="material-icons">store</i>Quantidade no Estoque</div>
-      <div class="collapsible-body "><p><?php echo $valor['qt_produto']; ?></p></div>
+      <div class="collapsible-header "><i class="material-icons">store</i>Quantidade no Estoque :  <?php echo $valor['qt_produto']; ?></div>
     </li>
     <li>
       <div class="collapsible-header "><i class="material-icons">description</i>Descrição do Produto</div>

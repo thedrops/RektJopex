@@ -14,6 +14,7 @@ $rs = mysqli_query($con, $sql);
 $linhas = mysqli_num_rows($rs);
 if ($linhas == 0) {
   echo "<center class='fundo'>Usuario não encontrado </center>";
+  
 }
 else {
   $valor = mysqli_fetch_array($rs);

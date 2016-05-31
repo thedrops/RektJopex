@@ -1,6 +1,6 @@
 <?php include"template/menu.php";  ?>
 
-<div class="conatiner fundo">
+<div class="container fundo">
 <div class="row">
   <div class="col s12 m12"><h1>Produtos</h1></div>
   <?php

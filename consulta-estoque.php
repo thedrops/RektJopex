@@ -24,7 +24,7 @@ if(!isset($_SESSION['nome'])) {
       <b>ID:</b><?=$valor['id_produto']?><br>
       <b>Nome:</b><?=$valor['nome_produto']?><br>
       <b>Categoria:</b><?=$valor['categoria_produto']?><br>
-      <b>Quantidades:</b><?=$valor['qt_produto']?><br>
+      <b>Quantidade:</b><?=$valor['qt_produto']?><br>
 
     </td>
 

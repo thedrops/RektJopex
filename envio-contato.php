@@ -10,8 +10,8 @@ $mensagem_contato = $_POST['mensagem_contato'];
 $sql = "insert into contato(nome_contato,email_contato,cpf_contato,assunto_contato,mensagem_contato) values ('$nome_contato','$email_contato','$cpf_contato','$assunto_contato','$mensagem_contato')";
 $run = $con->query($sql);
     if($run){
-        echo "<center class='fundo'><h1>Mensagem enviada com sucesso!</h1></center>";
-        echo "<script>setTimeout(function(){window.location.href='index.php'},5000);</script>";
+        echo "<center class='fundo'><h4>Mensagem enviada com sucesso!</h4></center>";
+        echo "<script>setTimeout(function(){window.location.href='index.php'},2000);</script>";
     }
     else{
         echo"Erro no envio da mensagem!".mysqli_error($con);
